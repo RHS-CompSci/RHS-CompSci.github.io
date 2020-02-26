@@ -92,7 +92,8 @@ footer
 
 #socialMedia
 {
-    display:flex;
+    display:none;
+    /* display: flex; */
     margin-top:20px;
 }
 
