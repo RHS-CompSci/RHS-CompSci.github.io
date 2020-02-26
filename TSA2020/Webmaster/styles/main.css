@@ -1,0 +1,110 @@
+*
+{
+	font-family:palatino;
+}
+
+body
+{
+    margin:-3px;
+    background-color:#dddddd;
+}
+
+header
+{
+    border:solid black 2px;
+	background-color:#666666;
+}
+
+nav ul
+{
+    background-color:#444444;
+    color:#FEFEFE;
+	padding:0px;
+    list-style:none;
+    display:flex;
+    margin:0px;
+}
+
+nav li.selected {
+    background-color:#222222;
+}
+
+nav li:hover
+{
+	background-color:#222222;
+	cursor:pointer;
+}
+
+nav li
+{
+    padding: 10px 0 10px 0;
+    /*
+	padding-top:10px;
+    padding-bottom:10px;
+    */
+    border-width: 0px 1px 2px 1px;
+    border-style: solid;
+    border-color: black;
+    /*
+    border-bottom:solid black 2px;
+    border-right:solid black 1px;
+    border-left:solid black 1px;
+    */
+    flex: 1;  /* same as setting width to fractional portion of screen */ 
+    /* width:33.34%; */
+    text-align:center;
+}
+
+/* header banner */
+header section
+{
+    width:50%;
+}
+
+header section section
+{
+	background-color:#dddddd;
+    border:solid black 2px;
+    /*opacity:.5; if background image uncomment */
+    border-radius:15px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+#subTitle
+{
+    padding-bottom:10px;
+    border-bottom:solid black 2px;
+}
+
+footer 
+{
+	background-color:#666666;
+	color:#FEFEFE;
+	font-family:arial;
+    border:solid black 2px;
+    text-align:center;
+}
+
+#socialMedia
+{
+    display:flex;
+    margin-top:20px;
+}
+
+.socialButtons
+{
+    margin:auto;
+    border:solid #555555 2px;
+    border-radius:10px;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+}
